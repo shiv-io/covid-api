@@ -1,6 +1,8 @@
 # covid-api
 COVID19 Api based on Johns Hopkins CSSE data
 
+[![CircleCI](https://circleci.com/gh/andreagrandi/covid-api.svg?style=svg)](https://circleci.com/gh/andreagrandi/covid-api)
+
 The intent of this project is to create an API which will make easier to access the COVID19 reports provided by the Johns Hopkins CSSE: https://github.com/CSSEGISandData/COVID-19
 
 # Status
@@ -53,4 +55,10 @@ The API will be served at [http://localhost:8000/](http://localhost:8000/)
 The API docs are served at [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## Deployment
+The lastest `master` branch is automatically deployed to Heroku whenever a pull request is merged (and tests are passing on CircleCI).
+
 See [deploying to heroku](./docs/heroku-deploy.md).
+
+## Sponsors and Thanks
+
+- [Heroku](https://www.heroku.com): for sponsoring the costs of running the service
